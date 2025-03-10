@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+<body>
+    <h1>Formulário de cadastro:</h1>
+    <br />
+    <form>
+        <label for="name">Seu nome</label>
+        <input id="name" type="text" placeholder="Seu nome " />
+        <br />
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" placeholder="Seu e-mail" />
+        <br />
+        <label for="password">Sua senha</label>
+        <input id="password" type="password" placeholder="Sua Senha"/>
+        <br />
+        <input type="checkbox" id="checkbox-termos" /> <label for="checkbox-temos">Aceito os termos</label> </label>
+        <br />
+        <br />
+        <p>
+        <button type="submit">Cadastro</button>
+        </p>
+    </form>
+</body>
+</html>
